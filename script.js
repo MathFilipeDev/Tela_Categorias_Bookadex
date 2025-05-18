@@ -11,3 +11,18 @@ window.addEventListener('click', (e) => {
     categoriaMenu.classList.add('hidden');
   }
 });
+
+function scrollToGenre(id) {
+    const element = document.getElementById(id);
+    const headerOffset = 100; // altura em pixels que você quer deixar de espaço antes da seção
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+    });
+}
+
+
+

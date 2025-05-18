@@ -122,6 +122,29 @@ nav div a:hover {
     border-radius: 5px;
 }
 
+.genre-buttons {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.genre-buttons button {
+    margin: 5px;
+    padding: 10px 70px;
+    font-size: 16px;
+    background-color: #444444;
+    color: white;
+    border: 2px solid transparent; /* adiciona borda invisível inicialmente */
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.genre-buttons button:hover {
+    background-color: #666;
+    border: 2px solid #00bfff; /* azul claro ao passar o mouse */
+}
+
+
 /* Carrossel base */
 .carrossel {
     margin: 30px 20px;
@@ -209,6 +232,7 @@ nav div a:hover {
 .top10 .slider .card-container:last-child {
     margin-right: 20px;
 }
+
 
 /* Responsividade */
 @media (max-width: 768px) {
