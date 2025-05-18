@@ -144,8 +144,8 @@ nav div a:hover {
 
 /* Card padrão (usado nos gêneros) */
 .card {
-    width: 150px;
-    height: 220px;
+    width: 200px;
+    height: 266px;
     position: relative;
     flex-shrink: 0;
     border-radius: 8px;
