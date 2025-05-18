@@ -128,7 +128,7 @@ nav div a:hover {
 }
 
 .carrossel h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 28px;
     color: aliceblue;
 }
@@ -136,7 +136,7 @@ nav div a:hover {
 /* Slider geral (gêneros) */
 .slider {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     overflow-x: auto;
     padding-bottom: 10px;
     scroll-behavior: smooth;
